@@ -1,0 +1,42 @@
+<div class="container">
+
+    <div class="text-center">
+        <h1>Virtual Stand-up Meeting Notes</h1>
+        <p class="lead">
+            This is a list of the last dozen meeting notes that were entered in. </p>
+    </div>
+
+    <div>
+        <!--<h2>Latest Notes</h2>-->
+        <div class="container">
+            <!--Filter notes list by member name-->
+                <div class="row clearfix">
+                    <div class="col-md-3 column">
+                        <select id="memberName" name="memberName" class="form-control" ng-model="sortOrder">
+                            <option disabled value="">(Select Name)</option>
+                            <option value="memberName">Member Name</option>
+                            <option value="project">Project Name</option>
+                          </select>
+                    </div>
+                    <div class="col-md-2 column">
+                        <!-- Button -->
+                        <button id="btnFilterNotes" name="btnFilterNotes" class="btn btn-primary"  ng-click="sort()">Order By<div class="glyphicon glyphicon-sort-by-alphabet-alt"></div></button>
+                    </div>
+                </div>
+        </div>
+        <br />
+        <div class="container">
+            <div class="col-md-12 column list-group" ng-repeat="note in notes | orderBy:sortOrder">
+                <div class="list-group-item" >
+                    <div>Note from <em><strong>{{note.memberName}}</strong></em> on: {{note.date | date:'dd-MM-yy'}}
+                        - for project: <strong>{{note.project |uppercase}}</strong></div>
+                    <div><strong>Work yesterday:</strong>{{note.workYesterday}} </div>
+                    <div><strong>Work today:</strong> {{note.workToday}}</div>
+                    <div><strong>Impediment:</strong> {{note.impediment}}</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

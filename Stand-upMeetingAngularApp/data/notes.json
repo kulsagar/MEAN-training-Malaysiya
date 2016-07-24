@@ -1,0 +1,34 @@
+[
+    {
+        "memberName": "Sridhar",
+        "date": "17-07-2016",
+        "project": "Score",
+        "workYesterday": "Curabitur mattis lobortis velit, eu sagittis nunc aliquam non. Duis.",
+        "workToday": "Etiam ut fringilla sapien, in ornare nisl. Suspendisse rutrum, felis.",
+        "impediment": "Internet connection"
+    },
+    {
+        "memberName": "Manu",
+        "date": "17-07-2016",
+        "project": "HSBC",
+        "workYesterday": "Curabitur mattis lobortis velit, eu sagittis nunc aliquam non. Duis.",
+        "workToday": "Etiam ut fringilla sapien, in ornare nisl. Suspendisse rutrum, felis.",
+        "impediment": "Internet connection"
+    },
+    {
+        "memberName": "Amit",
+        "date": "17-07-2016",
+        "project": "Barcaps",
+        "workYesterday": "Curabitur mattis lobortis velit, eu sagittis nunc aliquam non. Duis.",
+        "workToday": "Etiam ut fringilla sapien, in ornare nisl. Suspendisse rutrum, felis.",
+        "impediment": "Internet connection"
+    },
+    {
+        "memberName": "Huzefa",
+        "date": "17-07-2016",
+        "project": "Score",
+        "workYesterday": "Curabitur mattis lobortis velit, eu sagittis nunc aliquam non. Duis.",
+        "workToday": "Etiam ut fringilla sapien, in ornare nisl. Suspendisse rutrum, felis.",
+        "impediment": "Noise in the adjacent room"
+    }
+]
